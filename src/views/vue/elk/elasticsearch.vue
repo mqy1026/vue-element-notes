@@ -12,7 +12,7 @@
         <p>http.port: 9200 #设置对外服务的http端口，默认为9200。</p>
         <p>path.data: /path/to/data</p>
         <p>path.log: /path/to/log</p>
-        <p>network.host: 192.168.0.1 #这个参数是用来同时设置bind_host和publish_host上面两个参数。</p>
+        <p>network.host: 192.168.0.1 #这个参数是用来同时设置bind_host和publish_host上面两个参数。如果报错设置为0.0.0.0</p>
         <p>vim /etc/sysctl.conf</p>
         <p>加入：vm.max_map_count=262144   保存后执行以下命令：sysctl -p</p>
         <p>vim /etc/security/limits.conf</p>
